@@ -40,6 +40,9 @@ private String[] pictures;
     drawText("2025", 130, 275);
   }
 
+  /* 
+  This method goes through each picture I imported and it also shows the caption of each image.
+  */
   public void drawImagesWithCaptions() {
     setCaptionStyle();
     for (int index = 0; index < pictures.length; index++) {
@@ -58,6 +61,10 @@ private String[] pictures;
     drawText("THE", 150, 215);
     drawText("END", 150, 265);
   }
+  
+ /* 
+  These methods below are for the fronts, size, and color of the texts for each image and screen
+  */
 
   public void setTitleScreenStyle() {
     setTextHeight(50);

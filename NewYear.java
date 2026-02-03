@@ -22,7 +22,9 @@ private String[] captions = {
   }
   
 
-  // other methods
+  /* 
+  These three methods below show the three different screens of the title, my goals, and the end of the video screen.
+  */
    public void drawTitleScreen() {
     setTitleScreenStyle();
     clear("white");
@@ -45,21 +47,30 @@ private String[] captions = {
     drawText("THE", 150, 215);
     drawText("END", 150, 265);
   }
+
+  /* 
+  This method is used for the font color and size for the title screen
+  */
   public void setTitleScreenStyle() {
     setTextHeight(50);
     setTextColor("purple");
     setTextStyle(Font.SERIF, FontStyle.BOLD_ITALIC);
   }
-  
+/* 
+  This method is used for the font color and size for the middle screen
+  */
 public void setMiddleScreenStyle() {
   setTextHeight(40);
   setTextColor("purple");
   setTextStyle(Font.SERIF, FontStyle.BOLD_ITALIC);
 }
-
+  /* 
+  This method is used for the font color and size for the end screen
+  */
   public void setEndScreenStyle() {
     setTextHeight(60);
     setTextColor("purple");
     setTextStyle(Font.SERIF, FontStyle.BOLD_ITALIC);
   }
 }
+
